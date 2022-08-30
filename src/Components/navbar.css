@@ -1,0 +1,103 @@
+.p:hover{
+    cursor: pointer;
+    color: blue;
+}
+.span1{
+    transform: translate3d(69.6472px, 0px, 0px);
+    z-index: 1000;
+}
+.span2{
+    transform: translate3d(-33.5767px, 0px, 0px);
+    z-index: 1000;
+
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.scroll_text {
+    z-index: 1000;
+
+    padding-top: 5vw;
+    font-family: poppins,sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.scroll_text .span2{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.2rem #111;
+}
+
+.contactBox a:active, .contactBox a:hover {
+    background: rgba(0,0,0,.9);
+    transition: all .2s cubic-bezier(.3,0,.5,1);
+    width: 12rem;
+}
+
+.contactBox a {
+    background: rgba(15,20,30,.3);
+    border: 0;
+    border-radius: 2.3rem;
+    bottom: 4rem;
+    display: block;
+    height: 4rem;
+    left: 4rem;
+    padding: 1rem;
+
+    position: fixed;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    transition: all .2s cubic-bezier(.3,0,.5,1) .2s;
+    width: 4rem;
+    z-index: 20;
+}
+
+.contactBox a i {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+}
+
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.p{
+    color: #111;
+    display: block;
+    font-family: poppins,sans-serif;
+    /* font-size: 1.rem; */
+    font-weight: 600;
+    letter-spacing: .25rem;
+    /* margin: 2rem; */
+    position: relative;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.em:hover{
+    cursor: pointer;
+    color:rgb(138, 72, 48);
+}
+.grid{
+    display: grid;
+    margin: auto;
+    margin-left: 10vw;
+    grid-template-columns: 100px 100px 100px ;
+    column-gap: 22vw;
+    margin-top: 2vw;
+    row-gap: 4vw;
+}
