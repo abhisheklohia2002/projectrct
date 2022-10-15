@@ -11,13 +11,13 @@ const Navbar = () => {
     }
   return (
     <>
-    <div style={{display:"flex",justifyContent:"space-between",height:"5vw"}}>
-<div style={{display:"flex",cursor:"pointer"}}>
+    <div style={{display:"flex",justifyContent:"space-between",height:"5vw",backgroundColor:"#f5dfe6",border:"2px solid #826b73",borderTop:"0",borderLeft:"0",borderRight:"0"}}>
+<div style={{display:"flex",cursor:"pointer",paddingLeft:"1vw"}}>
     <div>
         <img onClick={GetBack} style={{width:"3.2vw",height:"3.2vw"}} src="https://akshit3010.github.io/static/media/logo.60ed405f77b3613395c3.png" alt="" />
     </div>
     <div onClick={GetBack} style={{textAlign:"center",fontSize:"2vw",fontWeight:"bold"}}>
-        Developer Service
+       Abhishek Lohia
     </div>
 </div>
 
@@ -30,20 +30,18 @@ const Navbar = () => {
       <NavLink to = "/about"> About</NavLink>
     </div>
     <div className='p'>
-        Skills
+       <NavLink to = "/skill"> Skills</NavLink>
     </div>
 
     <div className='p'>
-        Projects
+       <NavLink to = "/project"> Projects</NavLink>
     </div>
 
     <div className='p'>
        <NavLink to  = "/contact">  Contact</NavLink>
     </div>
 
-    <div className='p'>
-        Resume
-    </div>
+   
 
 </div>
     </div>

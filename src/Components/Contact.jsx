@@ -31,12 +31,12 @@ else {
 }
 
   return (
-    <div style={{backgroundColor:"#c9b9c1"}}>
-     <div style={{textAlign:"center",paddingLeft:"10vw",paddingTop:"2vw"}}>
+    <div style={{backgroundColor:"#ceeff0"}}>
+     {/* <div style={{textAlign:"center",paddingLeft:"10vw",paddingTop:"2vw"}}>
         <img style={{height:"25vw"}} src="http://scubeprosolutions.xyz/wp-content/uploads/2022/08/web_design-3-1536x480.jpg" alt="" />
-     </div>
+     </div> */}
 
-     <div style={{display:"flex",justifyContent:"space-evenly",marginTop:"6vw"}}>
+     <div style={{display:"flex",justifyContent:"space-evenly",paddingTop:"5vw"}}>
         <div>
           <div>
           <em style={{fontSize:"2vw"}}>Contact US</em>
@@ -45,7 +45,7 @@ else {
           For general inquiries, please contact by using the form on this page. We’d love to hear from you!
           </div>
           <div>
-          Email : info@solutions.xyz
+          Email : lohiaabhishek2@gmail.com
           </div>
         </div>
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import Bottom from './Bottom'
 import Footer from './Footer'
+import photo from "../image/lohia.png"
 import "./navbar.css"
 const Bodymain = () => {
    const nav = useNavigate()
@@ -10,7 +11,8 @@ const Bodymain = () => {
 
    }
   return (
-    <div style={{backgroundColor:"#c9b9c1"}}>
+   <>
+    <div style={{backgroundColor:"#c9b9c1",overflow:"hidden"}}>
  <div className='scroll_text'>
     <p className='span1'>Turning Ideas into</p>
     <p><span className='span2'> Digital Experiences</span></p>
@@ -31,16 +33,35 @@ const Bodymain = () => {
  </div>
 
 
- <div>
-    <img style={{width:"40vw",position:"relative",bottom:"10vw"}} src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=996&t=st=1661786996~exp=1661787596~hmac=f5d8d3234ad16bc9856cd3cf87d4305ea0b2d8cf0fea0569d607d7d05d4fc554" alt="" />
+ <div style={{}}>
+<div> <img style={{width:"25vw",position:"relative",bottom:"10vw",borderRadius:"12vw",left:"5vw"}} src= {photo} alt="" /></div>
+    
+ <div className="typewriter">
+  <h1 className='h1'>Hi  I am Abhishek Lohia ,
+
+   
+  </h1>
+<p className='mern'>  MERN Stack Developer</p>
+<p className='mern'>
+   I build Interactive Websites that run across platforms & device
+</p>
+
+</div>
+
  </div>
 
+ 
 
-<Bottom/>
+
+{/* <Bottom/>
+ */}
+  
  
 
     </div>
+    <Footer/>
 
+   </>
 
   )
 }

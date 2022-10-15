@@ -1,3 +1,7 @@
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css"integrity="sha512-3PN6gfRNZEX4YFyz+sIyTF6pGlQiryJu9NlGhu9LrLMQ7eDjNgudQoFDK3WSNAayeIKc6B8WXXpo4a7HqxjKwg=="crossorigin="anonymous"referrerpolicy="no-referrer
+
+
+
 .p:hover{
     cursor: pointer;
     color: blue;
@@ -95,9 +99,64 @@
 .grid{
     display: grid;
     margin: auto;
-    margin-left: 10vw;
+    margin-left: 7.2vw;
     grid-template-columns: 100px 100px 100px ;
-    column-gap: 22vw;
+    column-gap: 22.2vw;
     margin-top: 2vw;
-    row-gap: 4vw;
+    row-gap: -1vw;
+    
 }
+.box {
+    background-color: aliceblue;
+     
+    margin-bottom: 3vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+
+.h1 {
+    position: relative;
+    bottom: 10vw;
+    padding-left: 2vw;
+    font-size: 2vw;
+    color: rgb(191, 245, 245);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+ /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  .mern{
+    position: relative;
+    bottom: 10vw;
+    padding-left: 2vw;
+    font-size: 1.8vw;
+    color: rgb(92, 154, 154);
+
+
+  }
+
+  .project{
+    transform: translate3d(-33.5767px, 0px, 0px);
+    z-index: 1000;
+color: rgb(135, 123, 102);
+text-shadow: rgb(179, 124, 124);
+text-transform:uppercase;
+  }
